@@ -15,7 +15,7 @@ class CoffeeController extends Controller
      */
     public function index()
     {
-        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->get();
+        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->limit(10)->get();
         return response()->json($danhsachcoffee);
     }
 
@@ -40,7 +40,7 @@ class CoffeeController extends Controller
             "id_type" => 5,
             "id_unit" => 1
         ]);
-        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->get();
+        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->limit(10)->get();
         return response()->json($danhsachcoffee);
     }
 
@@ -66,7 +66,7 @@ class CoffeeController extends Controller
     public function update(Request $request, $id)
     {
         DB::table('coffees')->where('id', $id)->update(['name' => $request->name, 'price' => $request->price]);
-        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->get();
+        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->limit(10)->get();
         return response()->json($danhsachcoffee);
     }
 
@@ -79,7 +79,7 @@ class CoffeeController extends Controller
     public function destroy($id)
     {
         DB::table('coffees')->delete($id);
-        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->get();
+        $danhsachcoffee = DB::table('coffees')->orderByDesc('id')->limit(10)->get();
         return response()->json($danhsachcoffee);
     }
 }
