@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,13 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607196d2-6e5e-4221-8d23-e9ebcffbb4ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604676066837</updated>
       <workItem from="1604676068891" duration="290000" />
-      <workItem from="1604676393313" duration="3979000" />
+      <workItem from="1604676393313" duration="4594000" />
     </task>
     <servers />
   </component>
@@ -218,9 +218,9 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="664" y="88" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1604679500970" />
-    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup" timestamp="1604678836482">
+    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup" timestamp="1604680846240">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1604678836482" />
+    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1604680846240" />
   </component>
 </project>
