@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607196d2-6e5e-4221-8d23-e9ebcffbb4ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +207,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="132" width="492" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1604676235418">
@@ -218,9 +218,9 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="664" y="88" key="SettingsEditor/0.0.1920.1046@0.0.1920.1046" timestamp="1604679500970" />
-    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup" timestamp="1604680846240">
+    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup" timestamp="1604718780103">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1604680846240" />
+    <state x="539" y="11" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1604718780103" />
   </component>
 </project>

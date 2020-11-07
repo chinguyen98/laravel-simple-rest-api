@@ -18,12 +18,20 @@ class AuthController extends Controller
         $user->firstname = $request->input('firstname');
         $user->lastname = $request->input('lastname');
         $user->password = Hash::make($request->input('password'));
-        $user->save();
 
-        return response()->json([
-            'status' => 200,
-            'message' => 'User created successfully!',
-        ]);
+        try {
+            $user->save();
+
+            return response()->json([
+                'status' => 200,
+                'message' => 'User created successfully!',
+            ]);
+        } catch (\Exception $err) {
+            return response()->json([
+                'status' => 422,
+                'message' => 'Email đã có người xài!',
+            ], 422);
+        }
     }
 
     public function login(Request $request)
